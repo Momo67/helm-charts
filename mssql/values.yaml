@@ -1,4 +1,0 @@
-replicaCount: 1
-sa_password: ""
-accept_eula: "Y"
-mssql_pid: "Standard"
