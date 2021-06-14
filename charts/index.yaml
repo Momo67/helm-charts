@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  mssql:
+  - apiVersion: v1
+    created: "2021-06-14T16:28:42.671854706+02:00"
+    description: A helm chart
+    digest: d5558644dce250cbbc49659e24fcfd8cf9130684d3027708d6b383e72322cea4
+    name: mssql
+    urls:
+    - https://momo67.github.io/helm-charts/mssql-0.2.0.tgz
+    version: 0.2.0
+generated: "2021-06-14T16:28:42.671275384+02:00"
