@@ -1,0 +1,4 @@
+apiVersion: v1
+name: "mssql"
+description: "A helm chart"
+version: 0.2.0
