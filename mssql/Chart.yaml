@@ -1,4 +1,4 @@
 apiVersion: v1
 name: "mssql"
-description: "A helm chart"
+description: "Chart to install mssql"
 version: 0.2.0
