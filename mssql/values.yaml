@@ -1,0 +1,4 @@
+replicaCount: 1
+sa_password: "12345678"
+accept_eula: "Y"
+mssql_pid: "Standard"
