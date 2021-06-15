@@ -33,9 +33,9 @@ spec:
                 name: mssql-secret
                 key: sa_password
           - name: ACCEPT_EULA
-            value: "Y"
+            value: {{ .Values.accept_eula }}
           - name: MSSQL_PID
-            value: "Standard"
+            value: {{ .Values.mssql_pid }}
         volumeMounts:
         - name: mssql-data
           mountPath: /var/opt/mssql
