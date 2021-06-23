@@ -11,5 +11,5 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   storageClassName: manual
   nfs:
-    path: /shares/Public/mssql
-    server: 192.168.192.11
+    path: {{ .Values.persistantVolume.nfs.path }}
+    server: {{ .Values.persistantVolume.nfs.server }}
