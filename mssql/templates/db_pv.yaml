@@ -11,5 +11,5 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   storageClassName: manual
   nfs:
-    path: {{ .Values.persistantVolume.nfs.path }}
-    server: {{ .Values.persistantVolume.nfs.server }}
+    path: {{ .Values.persistantVolume.nfs.path | quote }}
+    server: {{ .Values.persistantVolume.nfs.server | quote }}
