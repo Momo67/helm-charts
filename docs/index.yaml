@@ -1,16 +1,16 @@
 apiVersion: v1
 entries:
   mssql:
-  - apiVersion: v1
-    created: "2021-06-23T17:44:17.036055526+02:00"
+  - apiVersion: v2
+    created: "2021-06-24T15:27:05.865292542+02:00"
     description: Chart to install mssql
-    digest: ccb7f5c837120dc35e1192277c6cbdc6efe38f1c43d68dd44ae5c8b3fb752b8b
+    digest: eb540efb87a7eb5c2cd6c6acc71190a61c6a3286a87c3b5ad8a02e0222fb1ae7
     name: mssql
     urls:
     - https://Momo67.github.io/helm-charts/mssql-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v1
-    created: "2021-06-23T17:44:17.035637173+02:00"
+    created: "2021-06-24T15:27:05.864700773+02:00"
     description: Chart to install mssql
     digest: 53025dffea15526fdd06c4a77b22a284d7879179ae47c956ee09e2f5b020607a
     name: mssql
@@ -18,7 +18,7 @@ entries:
     - https://Momo67.github.io/helm-charts/mssql-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2021-06-23T17:44:17.035216503+02:00"
+    created: "2021-06-24T15:27:05.862544925+02:00"
     description: Chart to install mssql
     digest: 95de4455c4cbe054696322da939fc195317fbb14be21ce5a84e2800798e22869
     name: mssql
@@ -28,7 +28,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-06-23T17:44:17.037214912+02:00"
+    created: "2021-06-24T15:27:05.866859515+02:00"
     description: A Helm chart for Kubernetes
     digest: a591184ff1560c5bdca86e9060d1aa510f09b3349d686db801cc271dd4d091e2
     name: mychart
@@ -36,4 +36,4 @@ entries:
     urls:
     - https://Momo67.github.io/helm-charts/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-23T17:44:17.034295344+02:00"
+generated: "2021-06-24T15:27:05.861654037+02:00"
