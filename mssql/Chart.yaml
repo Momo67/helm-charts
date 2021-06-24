@@ -1,4 +1,0 @@
-apiVersion: v2
-name: "mssql"
-description: "Chart to install mssql"
-version: 0.4.1
