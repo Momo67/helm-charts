@@ -1,0 +1,1 @@
+RESTORE DATABASE goeland FROM DISK = '/var/opt/mssql/data/goeland_backup_2021_06_04_003001_0003280.bak' WITH MOVE 'goeland_Data' TO '/var/opt/mssq/data/goeland_Data.mdf', MOVE 'goeland_Log' TO '/var/opt/mssq/data/goeland_Log.ldf'
