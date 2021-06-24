@@ -41,10 +41,13 @@ spec:
           mountPath: /var/opt/mssql
         - name: start-script
           mountPath: /tmp
-        # resources:
-        #   limits:
-        #     memory: "3Gi"
-        #     cpu: "500m"
+          resources:
+            requests:
+              cpu: "4"
+              memory: "4Gi"
+            limits:
+              cpu: "8"
+              memory: "8Gi"
 
       volumes:
       - name: mssql-data
