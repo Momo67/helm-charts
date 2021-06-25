@@ -19,9 +19,8 @@ spec:
         fsGroup: 10001 
       containers:
       - name: my-mssql
-        image: myregistry.domain.com:5001/mssql-server:2017
-        image: myregistry.domain.com:5001/mssql-server:latest
-        #image: myregistry.domain.com:5001/my-ubuntu:latest
+        #image: myregistry.domain.com:5001/mssql-server:2017
+        image: myregistry.domain.com:5001/mssql-server:2019
         #image: mcr.microsoft.com/mssql/server:2019-latest
         command: ['/tmp/run.sh']
         #imagePullPolicy: Always
