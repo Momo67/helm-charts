@@ -23,7 +23,7 @@ spec:
         image: myregistry.domain.com:5001/mssql-server:latest
         #image: myregistry.domain.com:5001/my-ubuntu:latest
         #image: mcr.microsoft.com/mssql/server:2019-latest
-        #command: ['/tmp/run.sh']
+        command: ['/tmp/run.sh']
         #imagePullPolicy: Always
         ports:
           - containerPort: 1433
@@ -40,8 +40,8 @@ spec:
         volumeMounts:
         - name: mssql-data
           mountPath: /var/opt/mssql
-        # - name: start-script
-        #   mountPath: /tmp
+        - name: start-script
+          mountPath: /tmp
         resources:
           requests:
             cpu: "4"
@@ -51,7 +51,7 @@ spec:
       - name: mssql-data
         persistentVolumeClaim:
           claimName: db-pvc
-      # - name: start-script
-      #   configMap:
-      #     name: start-script
-      #     defaultMode: 0744
+      - name: start-script
+        configMap:
+          name: start-script
+          defaultMode: 0744

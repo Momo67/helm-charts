@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "Hello mssql!"
-/opt/mssql/bin/sqlservr
-#sleep infinity
+#/opt/mssql/bin/sqlservr
+tail -f /dev/null
