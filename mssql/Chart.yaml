@@ -1,5 +1,5 @@
 apiVersion: v2
 name: "mssql"
 description: "Chart to install mssql"
-version: 0.7.3
-appVersion: "1.6"
+version: 0.7.4
+appVersion: "1.7"
