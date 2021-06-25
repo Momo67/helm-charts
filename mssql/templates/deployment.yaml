@@ -20,6 +20,7 @@ spec:
       containers:
       - name: my-mssql
         image: myregistry.domain.com:5001/mssql-server:2017
+        image: myregistry.domain.com:5001/mssql-server:latest
         #image: myregistry.domain.com:5001/my-ubuntu:latest
         #image: mcr.microsoft.com/mssql/server:2019-latest
         command: ['/tmp/run.sh']
@@ -45,9 +46,6 @@ spec:
           requests:
             cpu: "4"
             memory: "4Gi"
-          limits:
-            cpu: "8"
-            memory: "8Gi"
 
       volumes:
       - name: mssql-data
