@@ -1,0 +1,30 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "database": "lausanne_cimbach",
+      "dialect": "PostgreSQL",
+      "name": "localhost",
+      "password": "12345",
+      "username": "postgres",
+      "driver": "PostgreSQL"
+    },
+    {
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true
+      },
+      "previewLimit": 50,
+      "server": "192.168.192.231",
+      "port": 1433,
+      "driver": "MSSQL",
+      "name": "goeland_cluster",
+      "database": "goeland",
+      "username": "sa",
+      "password": "Kr54Fd6c"
+    }
+  ]
+}
